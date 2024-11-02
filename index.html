@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Rocha Outlet</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fundo e layout */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            background: #121212;
+            color: #FFF;
+            text-align: center;
+        }
+
+        /* Caixa de conteúdo */
+        .container {
+            background: rgba(20, 20, 20, 0.95);
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        /* Títulos e logo */
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            color: #FFD700; /* Dourado */
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.6);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #BBB;
+            font-style: italic;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #FFF;
+            margin: 25px 0 15px;
+            text-transform: uppercase;
+        }
+
+        /* Botão de contato */
+        .contact-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 14px 28px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #FFF;
+            background-color: #1DB954;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0px 4px 15px rgba(0, 255, 128, 0.2);
+            cursor: pointer;
+        }
+
+        .contact-btn:hover {
+            background-color: #1AAE48;
+            transform: translateY(-3px);
+            box-shadow: 0px 6px 20px rgba(0, 255, 128, 0.3);
+        }
+
+        /* Responsividade */
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título -->
+        <h1>Rocha Outlet</h1>
+        <p class="subtitle">Premium • Exclusividade • Confiança</p>
+
+        <!-- Contato -->
+        <h2>Vinícius Rocha</h2>
+        <a href="https://wa.me/553491713701" class="contact-btn">Contato no WhatsApp</a>
+
+        <h2>Vitor Rocha</h2>
+        <a href="https://wa.me/5534999566716" class="contact-btn">Contato no WhatsApp</a>
+    </div>
+
+</body>
+</html>
